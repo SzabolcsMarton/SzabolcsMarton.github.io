@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "sedgwich";
+  src: url("/fonts/Sedgwick_Ave/SedgwickAve-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "unkept";
+  src: url("/fonts/Unkempt/Unkempt-Regular.ttf");
+  font-weight: 400;
+}
+html {
+  text-align: center;
+}
+
+body {
+  background-image: url("/img/belso.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(191, 194, 34);
+  text-align: center;
+  font-family: "sedgwich";
+  font-size: 3.7em;
+  margin-top: 50px;
+}
+
+a {
+  font-size: 1.2em;
+  color: chocolate;
+  background-color: rgb(191, 194, 34);
+  border: 2px solid coral;
+  border-radius: 7px;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(191, 194, 34);
+  background-color: chocolate;
+}
+
+#leiras {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 60%;
+  height: 15rem;
+  background-color: rgb(32, 34, 155);
+  opacity: 0.5;
+  margin: 5rem auto;
+}
+
+#szoveg {
+  color: yellow;
+  font-size: 1.4em;
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: "unkept";
+}
+table {
+  color: white;
+}
