@@ -77,8 +77,7 @@ a:hover {
   padding-bottom: 15px;
   margin: 0 auto;
   font-size: 1.4em;
-  height: 80%;
-  width: 80%;
+  text-align: center;
 }
 caption h2 {
   margin-top: 0;
@@ -87,6 +86,7 @@ caption h2 {
 .cim {
   color: yellow;
   padding-bottom: 5px;
+  text-align: center;
   margin: 0 auto;
   font-size: 1.4em;
 }
