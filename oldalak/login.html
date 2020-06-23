@@ -3,37 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="/main.css" />
-    <title>orders</title>
+    <title>Login</title>
   </head>
   <body>
-    <h1>Orders</h1>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="orders.html">Orders</a>
-      <a href="product.html">Product</a>
-      <a href="login.html">Login</a>
-    </nav>
+    <h1>Login</h1>
+    <div class="nav">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="orders.html">Orders</a>
+        <a href="product.html">Product</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+
     <div class="container">
-      <form>
-        <div>
-          <label for="name">Nev:</label>
-          <input name="name" type="text" required />
+      <div class="kisLeiras">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <form class="sargaBetu">
+              <div class="form-group">
+                <label for="name">Nev:</label>
+                <input name="name" type="text" required />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" required />
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input name="password" type="text" required />
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-warning btn-sm loginButton"
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-4"></div>
         </div>
-        <div>
-          <label for="email">E-mail:</label>
-          <input name="email" type="email" required />
-        </div>
-        <div>
-          <label for="cim">Cim:</label>
-          <input name="cim" type="text" required />
-        </div>
-        <div>
-          <label for="comment">Megjegyzes:</label>
-          <textarea name="comment" rows="10"></textarea>
-        </div>
-      </form>
+      </div>
     </div>
   </body>
 </html>

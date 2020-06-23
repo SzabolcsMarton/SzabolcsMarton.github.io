@@ -44,43 +44,44 @@ a:hover {
   color: rgb(191, 194, 34);
   background-color: chocolate;
 }
-
+.nav {
+  text-align: center;
+}
 .leiras {
   border: 2px solid black;
   border-radius: 15px;
-  width: 60%;
+  max-width: 60%;
   background-color: rgb(32, 34, 155);
-  opacity: 0.6;
+  opacity: 0.7;
   margin: 5rem auto;
 }
 .kisLeiras {
+  color: yellow;
   border: 2px solid black;
   border-radius: 15px;
-  width: 40%;
+  max-width: 40%;
   background-color: rgb(32, 34, 155);
-  opacity: 0.6;
+  opacity: 0.7;
   margin: 2rem auto;
 }
 
 #szoveg {
   color: yellow;
   font-size: 1.4em;
-  height: 80%;
-  width: 80%;
   text-align: center;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 15px;
   font-family: "unkept";
 }
 #nyitva {
   color: yellow;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   margin: 0 auto;
   font-size: 1.4em;
   text-align: center;
 }
 caption h2 {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .cim {
@@ -90,7 +91,18 @@ caption h2 {
   margin: 0 auto;
   font-size: 1.4em;
 }
-.cim p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.nyitvaP {
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.sargaBetu {
+  color: yellow;
+}
+.loginButton {
+  margin: 5px 0 15px 0;
+}
+hr {
+  width: 80%;
+  height: 2px;
+  color: yellow;
 }
